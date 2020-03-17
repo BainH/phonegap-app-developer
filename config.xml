@@ -64,16 +64,16 @@
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
 
-    <engine name="android" spec="^6.4.0" />
+    <engine name="android" spec="~6.4.0" />
     <engine name="ios" spec="^4.5.3" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
     <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
         <variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes" />
     </plugin>
-    <plugin name="cordova-plugin-camera" spec="^3.0.0">
+    <gap:plugin name="cordova-plugin-camera" src="npm">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" " />
-    </plugin>
+    </gap:plugin>
     <plugin name="cordova-plugin-device" spec="^1.1.7" />
     <plugin name="cordova-plugin-device-motion" spec="^1.2.5" />
     <plugin name="cordova-plugin-dialogs" spec="^1.3.4" />
