@@ -53,6 +53,7 @@
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
     </platform>
     <platform name="android">
+        <preference name="ANDROID_SUPPORT_V4_VERSION" value="com.android.support:support-v4:24.1.1"/>
         <preference name="android-minSdkVersion" value="19" />
         <preference name="Orientation" value="default" />
         <preference name="SplashScreenDelay" value="0" />
@@ -97,9 +98,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
     <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
     <plugin name="cordova-plugin-vibration" spec="^2.1.6" />
-    <plugin name="cordova-plugin-file-opener2" source="npm" spec="2.1.0">
-        <param name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
-    </plugin>
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.2.1"/>
     <plugin name="phonegap-plugin-barcodescanner" spec="^6.0.8">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
